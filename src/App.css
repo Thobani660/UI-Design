@@ -1,0 +1,537 @@
+body {
+  background-attachment: fixed;
+  backface-visibility: visible;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/User-Interface/src/res/Starbucks-btmCircle1st-removebg-preview.png);
+  height: 100vh;
+  position: fixed;
+}
+.flex-container {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.Top {
+  display: flex;
+  align-items: center;
+  color: rgb(73, 14, 14);
+  font-weight: bolder;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.imglogo {
+  background-color: pink;
+  background-image: url("./res/logo..jfif");
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 3px;
+  margin-right: 10px;
+}
+.imglogo:hover {
+  background-color: pink;
+  background-image: url("./res/logo..jfif");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.Logo {
+  margin-left: 110px;
+  color: black;
+  display: flex;
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+  margin-right: 140px;
+  font: bolder;
+  font-weight: 1600;
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.Logo:hover {
+  margin-left: 110px;
+  color: rgba(32, 24, 24, 0.582);
+  display: flex;
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+  margin-right: 140px;
+}
+.Menu {
+  margin-left: 21px;
+  margin-top: 10px;
+}
+
+.Menu:hover {
+  margin-top: 10px;
+
+  /* background-color: green; */
+  border-color: 3px solid green;
+  border: 2px solid green;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-radius: 5px;
+  padding: 2px;
+  margin-left: 10px;
+  font-size: larger;
+
+}
+
+.Trending {
+  margin-top: 10px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-radius: 5px;
+  padding: 2px;
+  margin-left: 20px;
+  margin-left: 80px;
+  margin-right: 50px;
+  margin-top: 10px;
+  
+
+}
+.Trending:hover {
+  margin-top: 10px;
+  border-color: 3px solid green;
+  border: 2px solid green;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-radius: 5px;
+  padding: 2px;
+  margin-left: 90px;
+  font-size: larger;
+}
+
+.About {
+  margin-top: 10px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-radius: 5px;
+  padding: 2px;
+  margin-left: 20px;
+}
+.About:hover {
+  margin-top: 10px;
+  font-size: larger;
+  border-color: 3px solid green;
+  border: 2px solid green;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-radius: 5px;
+  padding: 2px;
+  margin-left: 30px;
+}
+h1 {
+  color: rgb(73, 12, 12);
+  font: bolder;
+  font-size:50px;
+  font-weight: 1500;
+}
+p {
+  color: rgb(73, 12, 12);
+}
+.Middle {
+  /* background-color: rgba(128, 128, 128, 0.219); */
+  height: 400px;
+  width: 400px;
+  display: 400px;
+  border-radius: 10px;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+  margin-left: 120px;
+  margin-top: 20px;
+  padding: 40px;
+  /* text-size-adjust: ; */
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Btn {
+  width: 150px;
+  height: 30px;
+  margin-top: 50px;
+  background-color: rgba(175, 116, 38, 0.925);
+  color: white;
+  font: bolder;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.Btn:hover {
+  width: 160px;
+  height: 40px;
+  margin-top: 50px;
+  background-color: rgba(126, 72, 1, 0.925);
+  color: white;
+  font: bold;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.Bottom{
+  position: absolute;
+  background-color: rgb(47, 123, 93);
+  width: 700px;
+  margin-left: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+  border-radius: 35px;
+  /* background-color: ; */
+  rotate: -2.5deg;
+  bottom: -105px;
+  z-index: -1;
+  height: 200px;
+  
+
+}
+.btmCircle{
+  background-color: rgb(236, 183, 143);
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  /* padding: 5%; */
+  margin-left: 5%;
+  text-align: center;
+  direction: unset;
+  align-items: center;
+  justify-content: center;
+
+}
+.circles {
+  display: flex;
+  margin-left: 400px;
+  justify-content: space-around;
+}
+
+.btmCircle3{
+  background-color: rgb(236, 183, 143);
+  background-image: url("./res/3rd.png");  background-position:center;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-left: 7%;
+  margin-right: 10%;
+  text-align: center;
+  direction: unset;
+  align-items: center;
+  justify-content: center;
+}
+
+.btmCircle3:hover{
+  background-color: rgb(236, 183, 143);
+  background-image: url("./res/3rd.png");  background-position:center;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+  margin-left: 10%;
+  margin-right: 7%;
+  text-align: center;
+  direction: unset;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.btmCircle2{
+  background-color: rgb(247, 209, 173);
+  background-image: url("./res/2nd.png");
+  background-position:center;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  direction: unset;
+  align-items: center;
+  justify-content: center;
+}
+.btmCircle2:hover{
+  background-color: rgb(247, 209, 173);
+  background-image: url("./res/2nd.png");
+  background-position:center;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  direction: unset;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.btmCircle1{
+  background-image: url("./res/1st.png");
+  background-color: rgb(247, 209, 173);
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-right: 10%;
+  text-align: center;
+  direction: unset;
+  align-items: center;
+  justify-content: center;
+}
+
+.btmCircle1:hover{
+  background-image: url("./res/1st.png");
+  background-color: rgb(247, 209, 173);
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+
+  text-align: center;
+  direction: unset;
+  align-items: center;
+  justify-content: center;
+}
+.rate {
+  background-color: white;
+  font: bolder;
+  width: 40px;
+  margin-top: 100px;
+  margin-left: 85px;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.emojione--star {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-left: 2px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%23ffce31' d='M62 25.2H39.1L32 3l-7.1 22.2H2l18.5 13.7l-7 22.1L32 47.3L50.5 61l-7.1-22.2z'/%3E%3C/svg%3E");
+}
+
+.circle1 {
+background-image: url(/User-Interface/res/Starbucks-btmCircle1st.jfif);
+}
+
+.circle2 {
+background-image: url(/User-Interface/src/res/2nd.png);
+}
+
+
+@media screen and (max-width: 800px) {
+ 
+  body {
+    background-attachment: fixed;
+    backface-visibility: visible;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/User-Interface/src/res/Starbucks-btmCircle1st-removebg-preview.png);
+    /* height: 100vh; */
+    position: fixed;
+  }
+
+  .Top {
+    display: flex;
+    align-items: center;
+    color: rgb(73, 14, 14);
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  
+.imglogo {
+  background-color: pink;
+  background-image: url("./res/logo..jfif");
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 3px;
+  margin-right: 0px;
+}
+.imglogo:hover {
+  background-color: pink;
+  background-image: url("./res/logo..jfif");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-right: 0px;
+}
+.Logo {
+  margin-left: 30px;
+  color: black;
+  display: flex;
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+  margin-right: 10px;
+  font: bolder;
+  font-weight: 1600;
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.Logo:hover {
+  margin-left: 10px;
+  color: rgba(32, 24, 24, 0.582);
+  display: flex;
+  margin-top: 20px;
+  text-align: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.Middle {
+  height: 400px;
+  width: 400px;
+  display: 400px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0px;
+  margin-top: 20px;
+  padding: 40px;
+  color: orange;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Menu {
+  margin-left: 21px;
+  margin-top: 20px;
+}
+
+.Menu:hover {
+  margin-top: 20px;
+  border-color: 3px solid green;
+  border: 2px solid green;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-radius: 5px;
+  padding: 2px;
+  margin-left: 10px;
+  font-size: larger;
+
+}
+
+.Trending {
+  /* margin-top: 30px; */
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-radius: 5px;
+  padding: 2px;
+  margin-left: 20px;
+  margin-left: 50px;
+  margin-right: 30px;
+  margin-top: 20px;
+  
+
+}
+.Trending:hover {
+  margin-top: 20px;
+  border-color: 3px solid green;
+  border: 2px solid green;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-radius: 5px;
+  padding: 2px;
+  margin-left: 60px;
+  font-size: larger;
+}
+
+.About {
+  margin-top: 20px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-radius: 5px;
+  padding: 2px;
+  margin-left: 10px;
+}
+.About:hover {
+  margin-top: 20px;
+  font-size: larger;
+  border-color: 3px solid green;
+  border: 2px solid green;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-radius: 5px;
+  padding: 2px;
+  margin-left: 20px;
+}
+.Bottom{
+  position: absolute;
+  background-color: rgb(47, 123, 93);
+  width: 700px;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+  border-radius: 35px;
+  rotate: -2.5deg;
+  bottom: -75px;
+  z-index: -1;
+  height: 200px;
+}
+.circles {
+  display: flex;
+  margin-left: 150px;
+  margin-bottom: 60px;
+  padding-bottom: 40px;
+  justify-content: space-around;
+}
+h1 {
+  color: rgb(73, 12, 12);
+  font: bolder;
+  font-size:50px;
+  font-weight: 1500;
+}
+p {
+  color: rgb(73, 12, 12);
+}
+
+}
